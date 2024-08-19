@@ -1,16 +1,13 @@
-.classe1 ul {
-  background-color: red;
+.textBuy {
+  font-size: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
 }
-.classe1 li {
-  background-color: blue;
-}
-.classe1 button {
-  background-color: green;
-  cursor: pointer;
-}
-.classe1 button:hover {
-  background-color: red;
-  transition: 500ms;
+
+.btn {
+  padding: 10px;
+  border: 1px solid red;
+  background-color: yellow;
 }
 
 /*# sourceMappingURL=style.css.map */
