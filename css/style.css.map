@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/variaveis/commom/commom.scss","../sass/variaveis/colors/colors.scss","../sass/pages/cadastro.scss","../sass/pages/login.scss"],"names":[],"mappings":"AAEA;EACI;EACA;;;AAEJ;EACG;EACC;EACA;EACA,kBCTY;EDUZ;EACA;EACA;;;AEbJ;EFgBI,OEfwB;EFgBxB,WEhB4B;EFiB5B,aEjBiC;;;ACAjC;EHeA,OCfY;EDgBZ,WGfuC;EHgBvC,aGhB4C","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/style.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;;AAoBJ;EACI;EALA,kBAOgC;EANhC","file":"style.css"}

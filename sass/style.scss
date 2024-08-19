@@ -1,6 +1,28 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
 
-//não esquecer da hierarquia das paginas
-@import "./variaveis/colors/colors.scss";
-@import "./variaveis/commom/commom.scss";
-@import "./pages/cadastro.scss";
-@import "./pages/login.scss";
+//CRIANDO FUNÇÃO
+//função que verifica se a cor passada para o texto é clara ou escura, de acordo com o valor
+@function color-title($background-color){
+    @if(lightness($background-color)>50){
+        @return black
+    }
+        @else{
+            @return white;
+        }
+    }
+//mixin, recebe a cor como parametro, passa para o background e depois a cor do texto
+//chama a função color-title e o resultado da chamada é atribuida a cord
+@mixin background-color-mixin($color){
+    background-color: $color;
+    color: color-title($color);
+}
+//esse é a classe que o texto esta setado, e aqui é feita incluido o mixin 
+.title{
+    height: 100vh;
+
+    @include background-color-mixin(red)
+    
+}
