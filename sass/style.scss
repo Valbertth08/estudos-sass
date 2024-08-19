@@ -1,16 +1,6 @@
-//cria um "construtor", onde podemos passar as propriedades dentro do elemento
-//ele aqui funciona como uma classe que armazena um conjunto de propriedades
-@mixin text-style($color,$font-size,$font-family){
-    color: $color;
-    font-size: $font-size;
-    font-family: $font-family;
-}
 
-.texts{
-    h1{
-        @include text-style(blue, 34px, Arial)
-    }
-    p{
-        @include text-style(red, 22px, sans-serif)
-    }
-}
+//não esquecer da hierarquia das paginas
+@import "./variaveis/colors/colors.scss";
+@import "./variaveis/commom/commom.scss";
+@import "./pages/cadastro.scss";
+@import "./pages/login.scss";
