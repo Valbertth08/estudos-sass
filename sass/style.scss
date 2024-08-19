@@ -1,13 +1,17 @@
-$btn-color: black;
-
-.btn1{
-    width: 60px;
-    height: 60px;
-    background-color: $btn-color;
-}
-
-.btn2{
-    width: 70px;
-    height: 60px;
-    background-color: $btn-color;
+//funciona como elemento encadeados
+.classe1{
+    ul{
+        background-color: red;
+    }
+    li{
+        background-color: blue;
+    }
+    button{
+        background-color: green;
+        cursor: pointer;        
+        &:hover{
+            background-color: red;
+            transition: 500ms;
+        }
+    }
 }
