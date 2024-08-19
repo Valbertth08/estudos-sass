@@ -1,13 +1,12 @@
-.textBuy {
-  font-size: 2px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
+.texts h1 {
+  color: blue;
+  font-size: 34px;
+  font-family: Arial;
 }
-
-.btn {
-  padding: 10px;
-  border: 1px solid red;
-  background-color: yellow;
+.texts p {
+  color: red;
+  font-size: 22px;
+  font-family: sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
